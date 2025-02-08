@@ -1,11 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <form>
+        <table>
+            <tr>
+                <td><label for="Fullname">Họ và tên:</label></td>
+                <td><input type="text" name="họ và tên" id="Fullname"></td>
+            </tr>
+            <tr>
+                <td><label for="Date of birth">Ngày sinh:</label></td>
+                <td><input type="datetime-local" name="ngày sinh" id="Date of birth"></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Giới tính:</label></td>
+                <td><input type="radio" name="giới tính" id="Gender" value="Nam">Nam
+                    <input type="radio" name="giới tính" id="Gender" value="Nữ">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Telephone number">Số điện thoại:</label></td>
+                <td><input type="tel" name="số điện thoại" id="Telephone number"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email:</label></td>
+                <td><input type="email" name="username" id="Email"></td>
+            </tr>
+            <tr>
+                <td><label for="Name company">Tên công ty:</label></td>
+                <td><input type="Name" name="Tên công ty" id="Name company"></td>
+            </tr>
+            <tr>
+                <td><label for="Role">Vai trò trong công ty:</label>
+                <td><select name="Giám đốc điều hành(CEO)" id="Role">
+                        <option value="pgđ">Phó giám đốc</option>
+                        <option value="nv1">Nhân viên 1</option>
+                        <option value="nv2">Nhân viên 2</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="scale">Quy mô công ty:</label></td>
+                <td><select name="quy mô công ty" id="scale">
+                        <option value="dnl">Doanh nghiệp lớn</option>
+                        <option value="dnn">Doanh nghiệp nhỏ</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="Jobs">Ngành nghề:</label></td>
+                <td><input type="text" name="ngành nghề" id="Jobs"></td>
+            </tr>
+            <tr>
+                <td><label for="Reason">Lý do tham gia câu lạc bộ:</label></td>
+                <td><textarea cols="10" rows="2" id="Reason"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="experience">Kinh nghiệm lãnh đạo:</label></td>
+                <td><textarea cols="10" rows="2" id="experience"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="target">Mục tiêu khi tham gia câu lạc bộ:</label></td>
+                <td><textarea cols="10" rows="2" id="target"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="Preferred event to attend">Chương trình sự kiện mong muốn tham gia:</label></td>
+                <td><input type="checkbox" name="chương trình sự kiện mong muốn tham gia" id="Preferred event to attend"
+                        value="Networking">Networking
+                    <input type="checkbox" name="chương trình sự kiện mong muốn tham gia" id="Preferred event to attend"
+                        value="Workshop">Workshop
+                    <input type="checkbox" name="chương trình sự kiện mong muốn tham gia" id="Preferred event to attend"
+                        value="Hội thảo">Hội thảo
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Sign up">Đăng kí nhận bản tin:</label></td>
+                <td><input type="checkbox" name="đăng kí nhận bản tin" id="Sign up" value="Có">Có</td>
+            </tr>
+            <tr>
+                <td><button type="text">Đăng kí hội viên</button></td>
+            </tr>
+        </table>
+    </form>
 </body>
+
 </html>
